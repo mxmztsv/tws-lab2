@@ -6,5 +6,4 @@
 **/.idea/
 **/out/
 
-cli/src/main/java/ru/mxmztsv/app
-cli/ru
+**/app
