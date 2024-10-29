@@ -1,0 +1,15 @@
+<Context>
+    <Resource name="jdbc/postgres"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxTotal="100"
+              maxIdle="30"
+              maxWaitMillis="10000"
+              username="tws"
+              password="tws"
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://localhost:6432/postgres"
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+              testOnBorrow="true"
+              validationQuery="SELECT 1"/>
+</Context>

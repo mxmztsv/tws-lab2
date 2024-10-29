@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  postgres:
+    container_name: tws_lab2
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: "tws"
+      POSTGRES_PASSWORD: "tws"
+      POSTGRES_DB: "postgres"
+    ports:
+      - "6432:5432"

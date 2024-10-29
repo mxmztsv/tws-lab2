@@ -1,0 +1,10 @@
+**/.gradle
+**/build/
+!**/gradle/wrapper/gradle-wrapper.jar
+
+### IntelliJ IDEA ###
+**/.idea/
+**/out/
+
+cli/src/main/java/ru/mxmztsv/app
+cli/ru
